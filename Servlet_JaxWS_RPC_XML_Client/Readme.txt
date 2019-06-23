@@ -16,5 +16,5 @@ Step:4
 
 Note: 
 	Make sure your tomcat server is running in "8083" port or you can change the port
-	as per your requirement in "Servlet_JaxWS_RPC_XML" project.
+	as per your requirement in tomcat server.
 **/
