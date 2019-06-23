@@ -21,5 +21,4 @@ public interface PersonService {
 
 	@WebMethod
 	public Person[] getAllPersons();
-
 }

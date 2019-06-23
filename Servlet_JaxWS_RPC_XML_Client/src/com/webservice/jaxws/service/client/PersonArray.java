@@ -16,6 +16,7 @@ import javax.xml.bind.annotation.XmlType;
  * The following schema fragment specifies the expected content contained within
  * this class.
  * 
+ * 
  * <pre>
  * &lt;complexType name="personArray">
  *   &lt;complexContent>

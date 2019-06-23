@@ -14,7 +14,7 @@ public class Starter {
 	URL wsdlURL = null;
 	QName qname = null;
 	Service service = null;
-	static PersonService ps = null;
+	private static PersonService ps = null;
 
 	public Starter() throws MalformedURLException {
 		wsdlURL = new URL("http://localhost:8083/Servlet_JaxWS_RPC_XML/personWS?wsdl");

@@ -1,4 +1,3 @@
-
 package com.webservice.jaxws.beans;
 
 import java.io.Serializable;
