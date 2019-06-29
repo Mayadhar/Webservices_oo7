@@ -7,8 +7,8 @@ import java.util.Arrays;
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
 
-import com.webservice.jaxws.service.client.Person;
-import com.webservice.jaxws.service.client.PersonService;
+import com.webservice.jaxws.service.Person;
+import com.webservice.jaxws.service.PersonService;
 
 public class Starter {
 	URL wsdlURL = null;
@@ -17,7 +17,7 @@ public class Starter {
 	private static PersonService ps = null;
 
 	public Starter() throws MalformedURLException {
-		wsdlURL = new URL("http://127.0.0.1:8085/Servlet_JaxWS_RPC_XML/personWS?wsdl");
+		wsdlURL = new URL("http://localhost:8083/Spring_JaxWS_RPC_XML/personWS?wsdl");
 		qname = new QName("http://service.jaxws.webservice.com/", "PersonServiceImplService");
 		service = Service.create(wsdlURL, qname);
 		ps = service.getPort(PersonService.class);

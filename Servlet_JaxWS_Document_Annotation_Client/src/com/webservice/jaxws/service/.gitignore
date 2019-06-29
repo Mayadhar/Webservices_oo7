@@ -1,0 +1,13 @@
+/Person.class
+/PersonService.class
+/PersonServiceImplService.class
+/package-info.class
+/GetAllPersons.class
+/GetAllPersonsResponse.class
+/GetPerson.class
+/GetPersonResponse.class
+/ObjectFactory.class
+/DeletePersonResponse.class
+/AddPerson.class
+/AddPersonResponse.class
+/DeletePerson.class
