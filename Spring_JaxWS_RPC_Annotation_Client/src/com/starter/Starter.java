@@ -17,7 +17,7 @@ public class Starter {
 	private static PersonService ps = null;
 
 	public Starter() throws MalformedURLException {
-		wsdlURL = new URL("http://localhost:8083/Spring_JaxWS_RPC_Annotation/personWS?wsdl");
+		wsdlURL = new URL("http://localhost:8084/Spring_JaxWS_RPC_Annotation/personWS?wsdl");
 		qname = new QName("http://service.jaxws.webservice.com/", "PersonServiceImplService");
 		service = Service.create(wsdlURL, qname);
 		ps = service.getPort(PersonService.class);
