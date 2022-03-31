@@ -6,7 +6,7 @@
 	<artifactId>Spring_JaxWS_Document_Annotation</artifactId>
 	<properties>
 		<failOnMissingWebXml>false</failOnMissingWebXml>
-		<org.springframework.version>4.0.5.RELEASE</org.springframework.version>
+		<org.springframework.version>5.3.18</org.springframework.version>
 	</properties>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
